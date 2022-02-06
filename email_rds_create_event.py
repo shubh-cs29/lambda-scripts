@@ -3,6 +3,26 @@ import boto3
 import smtplib
 import email.message
 
+# cloudwatch event rule for create RDS Instance event
+"""
+{
+  "source": [
+    "aws.rds"
+  ],
+  "detail-type": [
+    "AWS API Call via CloudTrail"
+  ],
+  "detail": {
+    "eventSource": [
+      "rds.amazonaws.com"
+    ],
+    "eventName": [
+      "CreateDBInstance"
+    ]
+  }
+}
+"""
+
 def lambda_handler(event, context):
     rds_instance_name = event['detail']['requestParameters']['dBInstanceIdentifier']
     
