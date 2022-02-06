@@ -45,7 +45,7 @@ def lambda_handler(event, context):
               <th style="border: 1px solid #990000; border-collapse: collapse">S3 Bucket</th>
              </tr>
              <tr style="border: 1px solid #990000; border-collapse: collapse">
-              <td style="border: 1px solid #990000; border-collapse: collapse">{bucket_name}</td>
+              <td style="border: 1px solid #990000; border-collapse: collapse; white-space:pre">{bucket_name}</td>
              </tr>
           </table>
         </body>
