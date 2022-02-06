@@ -37,7 +37,7 @@ def lambda_handler(event, context):
               <th style="border: 1px solid #990000; border-collapse: collapse">Deleted Stacks</th>
              </tr>
              <tr style="border: 1px solid #990000; border-collapse: collapse">
-              <td style="border: 1px solid #990000; border-collapse: collapse">{deleted_stacks_list_string}</td>
+              <td style="border: 1px solid #990000; border-collapse: collapse; white-space:pre">{deleted_stacks_list_string}</td>
              </tr>
           </table>
         </body>
