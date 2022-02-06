@@ -46,8 +46,8 @@ def lambda_handler(event, context):
                <th style="border: 1px solid #990000; border-collapse: collapse">Instance Type</th>
              </tr>
              <tr style="border: 1px solid #990000; border-collapse: collapse">
-               <td style="border: 1px solid #990000; border-collapse: collapse" >{instance_id}</td>
-               <td style="border: 1px solid #990000; border-collapse: collapse">{instance_type}</td>
+               <td style="border: 1px solid #990000; border-collapse: collapse; white-space:pre">{instance_id}</td>
+               <td style="border: 1px solid #990000; border-collapse: collapse; white-space:pre">{instance_type}</td>
              </tr>
            </table>
         </body>
